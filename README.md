@@ -32,4 +32,4 @@ Where:
 4th line for GREEN (values from 0 to 100)
 5th line for BLUE (values from 0 to 100)
 ```
-In this example led set color at R=34 G=55=
+In this example led set color at R=34 G=55 B=100
