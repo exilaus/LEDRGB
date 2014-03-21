@@ -7,9 +7,9 @@ Raspberry pi deamon for manage 12v rgb led strip
 Hw schema from :  mitchtech.net/raspberry-pi-pwm-rgb-led-strip/
 
 
-after compile launch it in back ground and recall it with kill signal usr1 it read/execute LEDRGB.INI information.
+After compile launch it in back ground and recall it with kill signal usr1 it read/execute LEDRGB.INI information.
 
-LEDRGB.INI is composed by 5 text line, example:
+LEDRGB.INI is composed from 5 text line, example:
 
 ```
 0
