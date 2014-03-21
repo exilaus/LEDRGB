@@ -1,11 +1,16 @@
 LEDRGB
 ======
 
-Raspberry pi deamon for manage 12v rgb led strip
+Raspberry Pi deamon for manage 12v rgb led strip
 
 
-Hw schema from :  mitchtech.net/raspberry-pi-pwm-rgb-led-strip/
-
+Derived hw schema from :  mitchtech.net/raspberry-pi-pwm-rgb-led-strip/
+Default in this project pin are 22 - 24 - 26 of Raspberry Pi.
+```
+22- Red
+24- Green
+26- Blue
+```
 
 After compile launch it in back ground and recall it with kill signal usr1 it read/execute LEDRGB.INI information.
 
@@ -27,4 +32,4 @@ Where:
 4th line for GREEN (values from 0 to 100)
 5th line for BLUE (values from 0 to 100)
 ```
-
+In this example led set color at R=34 G=55=
